@@ -1,0 +1,56 @@
+﻿<Page x:Class="EngSchool.TableClientPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EngSchool"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TableClientPage">
+
+    <Grid>
+        <Border Grid.Row="1" BorderBrush="White" BorderThickness="2" MinWidth="800" MinHeight="300">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+
+
+                </Grid.ColumnDefinitions>
+                <TextBlock   Height="auto" Foreground="Black"  FontSize="17" TextAlignment="Center" Width="auto" Grid.Row="0"  Grid.Column="0"  Background="#FFE7FABF">Фамилия Имя Отчество</TextBlock>
+                <TextBlock  Foreground="Black" FontSize="17"  Grid.Row="0" TextAlignment="Center" Grid.Column="1"   Background="#FFE7FABF">Пропуски</TextBlock>
+                <TextBlock Foreground="Black" FontSize="17"  Grid.Row="0" TextAlignment="Center" Grid.Column="2"  Background="#FFE7FABF">Город</TextBlock>
+                <TextBlock   Height="auto" Foreground="Black"  FontSize="17" Grid.Row="1" TextAlignment="Center" Width="auto"   Grid.Column="0"  Background="White">Парада Надежда Алексеевна</TextBlock>
+                <TextBlock  Foreground="Black" FontSize="17"  Grid.Row="1" TextAlignment="Center" Grid.Column="1"   Background="White"> 56</TextBlock>
+                <TextBlock Foreground="Black" FontSize="17"  Grid.Row="1" TextAlignment="Center" Grid.Column="2"  Background="White">г.Новосибирск</TextBlock>
+                <TextBlock   Height="auto" Foreground="Black"  FontSize="17" Grid.Row="2" TextAlignment="Center" Width="auto"   Grid.Column="0"  Background="White">Гедзь Екатерина Викторовна</TextBlock>
+                <TextBlock  Foreground="Black" FontSize="17"  Grid.Row="2" TextAlignment="Center" Grid.Column="1"   Background="White"> 7</TextBlock>
+                <TextBlock Foreground="Black" FontSize="17"  Grid.Row="2" TextAlignment="Center" Grid.Column="2"  Background="White">г.Новосибирск</TextBlock>
+                <TextBlock   Height="auto" Foreground="Black"  FontSize="17" Grid.Row="3" TextAlignment="Center" Width="auto"   Grid.Column="0"  Background="White">Смоленцев Михаил Игоревич </TextBlock>
+                <TextBlock  Foreground="Black" FontSize="17"  Grid.Row="3" TextAlignment="Center" Grid.Column="1"   Background="White"> 45</TextBlock>
+                <TextBlock Foreground="Black" FontSize="17"  Grid.Row="3" TextAlignment="Center" Grid.Column="2"  Background="White">г.Новосибирск</TextBlock>
+                <TextBlock   Height="auto" Foreground="Black"  FontSize="17" Grid.Row="4" TextAlignment="Center" Width="auto"   Grid.Column="0"  Background="White">Парада Надежда Алексеевна</TextBlock>
+                <TextBlock  Foreground="Black" FontSize="17"  Grid.Row="4" TextAlignment="Center" Grid.Column="1"   Background="White"> 56</TextBlock>
+                <TextBlock Foreground="Black" FontSize="17"  Grid.Row="4" TextAlignment="Center" Grid.Column="2"  Background="White">г.Новосибирск</TextBlock>
+                <TextBlock   Height="auto" Foreground="Black"  FontSize="17" Grid.Row="5" TextAlignment="Center" Width="auto"   Grid.Column="0"  Background="White">Смоленцев Михаил Игоревич</TextBlock>
+                <TextBlock  Foreground="Black" FontSize="17"  Grid.Row="5" TextAlignment="Center" Grid.Column="1"   Background="White"> 45</TextBlock>
+                <TextBlock Foreground="Black" FontSize="17"  Grid.Row="5" TextAlignment="Center" Grid.Column="2"  Background="White">г.Новосибирск</TextBlock>
+                <TextBlock   Height="auto" Foreground="Black"  FontSize="17" Grid.Row="6" TextAlignment="Center" Width="auto"   Grid.Column="0"  Background="White">Гедзь Екатерина Викторовна</TextBlock>
+                <TextBlock  Foreground="Black" FontSize="17"  Grid.Row="6" TextAlignment="Center" Grid.Column="1"   Background="White"> 7</TextBlock>
+                <TextBlock Foreground="Black" FontSize="17"  Grid.Row="6" TextAlignment="Center" Grid.Column="2"  Background="White">г.Новосибирск</TextBlock>
+            </Grid>
+        </Border>
+
+    </Grid>
+</Page>
